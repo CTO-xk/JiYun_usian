@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: usian-content-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/usian?characterEncoding=UTF-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 8092
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+AD_CATEGORY_ID: 89
+AD_HEIGHT: 240
+AD_WIDTH: 670
+AD_HEIGHTB: 240
+AD_WIDTHB: 550
